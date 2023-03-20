@@ -12,15 +12,5 @@ export const tasksList = [
       ],
     },
 
-    {
-      _id: 4,
-      title: "Task2",
-      isCompleted: false,
-      completedSubtask: 0,
-     
-      subtasks: [
-        { _id: 5, title: "subtasks1", isCompleted: false },
-        { _id: 6, title: "subtasks2", isCompleted: false },
-      ],
-    },
+   
   ];

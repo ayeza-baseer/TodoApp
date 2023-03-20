@@ -10,15 +10,15 @@ function ToBeCompletedTask(props) {
 
                 <ul>
                   {subtasks
-                    .filter((subtask) => !subtask.isCompleted)
-                    .map((subtask) => (
+                    .filter(({isCompleted}) => !isCompleted)
+                    .map(({_id,title}) => (
                       <li
-                        key={subtask._id}
+                        key={_id}
                         onClick={() =>
-                          handleCheckboxClick(taskId, subtask._id)
+                          handleCheckboxClick(taskId, _id)
                         }
                       >
-                        <label>{subtask.title}</label>
+                        <label>{title}</label>
                       </li>
                     ))}
                 </ul>
