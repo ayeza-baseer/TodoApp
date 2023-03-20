@@ -1,0 +1,19 @@
+.task{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.statusBar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:2px solid black;
+    padding:1px;
+    width:500px;
+}
+
+.status{
+    display:flex;
+    justify-content: center;
+}
