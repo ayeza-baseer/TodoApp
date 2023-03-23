@@ -1,10 +1,10 @@
 import React from 'react';
 
 function SubtaskButton(props) {
-    const {toggleInputField,taskId}=props
+    const {toggleInputField,taskId,index}=props
     return (
-        <button onClick={() => toggleInputField(taskId)}>
-            + Add Sub Task
+        <button disabled={index==taskId} className='taskButton' onClick={() => toggleInputField(taskId)}>
+            + Add new Sub Task
           </button>
     );
 }

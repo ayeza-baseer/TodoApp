@@ -2,8 +2,15 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-}
 
+}
+.taskHeading{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 30px
+}
 .statusBar{
     display:flex;
     flex-direction: row;
@@ -17,3 +24,61 @@
     display:flex;
     justify-content: center;
 }
+
+.mainContent{
+    padding: 10px 90px;
+}
+
+.taskButton{
+    background-color:#4f9f4e;
+    padding:5px 30px 5px 5px ;
+    color:white
+    
+}
+
+
+.taskButtonPosition{
+  margin-top: 20px;
+  padding: 20px;
+  
+}
+
+.input-field{
+    padding: 5px;
+    border-radius:5px;
+    margin-right: 5px;
+}
+
+.input-button{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list-item{
+    inline-size: "200px";
+            overflow-wrap: "break-word"
+}
+.inner-heading{
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+}
+
+.icon{
+    margin-left:10px;
+}
+
+.button-input{
+    margin-right:10px;
+}
+
+table, td{
+    border: 1px solid;
+    padding:10px
+  }
+  
+  table {
+    width: 70%;
+    border-collapse: collapse;
+  }

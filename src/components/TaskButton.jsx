@@ -2,9 +2,9 @@ import React from 'react';
 
 
 function TaskButton(props) {
-    const {toggleInputTask}=props
+    const {toggleInputTask,showInput}=props
     return (
-        <button onClick={() => toggleInputTask()}>+ Add Task</button>
+        <button disabled={showInput}className="taskButton" onClick={() => toggleInputTask()}>+ Add New Task</button>
     );
 }
 
