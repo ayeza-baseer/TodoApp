@@ -34,11 +34,11 @@ function TaskHeading(props) {
         </div>
         <div>
           {hoveredTask == taskId && (
-            <FontAwesomeIcon
-              className="icon"
-              color="red"
-              icon={faTrash}
-              onClick={() => handleTaskClick(taskId)}
+               <FontAwesomeIcon
+                className="icon"
+                color="red"
+                icon={faTrash}
+                onClick={() => handleTaskClick(taskId)}
             />
           )}
         </div>
